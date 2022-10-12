@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_three/example/example.dart';
+import 'package:flutter_three/scrolling_widgets/mylist_separated.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.cyan,
       ),
-      home:  Examplee(),
+      home:  MyListSeparated(),
     );
   }
 }
