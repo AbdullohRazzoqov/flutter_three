@@ -19,12 +19,10 @@ class MyListSeparated extends StatelessWidget {
           },
           separatorBuilder: (context, index) {
             return Container(
-              color: Colors.amber,
-              width: 100,
-              height: 20,
-              child: const Text(
-                  "Mana shunday har bir itemdan keyin Container joylashdirdi"),
-            );
+                color: Colors.amber,
+                width: 100,
+                height: 20,
+                child: const Icon(Icons.add));
           },
           itemCount: 15),
     );
